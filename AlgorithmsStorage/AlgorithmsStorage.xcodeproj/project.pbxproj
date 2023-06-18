@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B28D92972A3DB6540000BDD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D92962A3DB6540000BDD6 /* main.swift */; };
+		B28D92A32A3EC5860000BDD6 /* DoubleStackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D92A22A3EC5860000BDD6 /* DoubleStackQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		B28D92962A3DB6540000BDD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B28D92992A3EC25A0000BDD6 /* PointerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointerQueue.swift; sourceTree = "<group>"; };
+		B28D92A22A3EC5860000BDD6 /* DoubleStackQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleStackQueue.swift; sourceTree = "<group>"; };
 		B2AB231B2A3D9DE70038D6F1 /* AlgorithmsStorage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsStorage; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AB231E2A3D9DE70038D6F1 /* baekjoon_10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baekjoon_10845.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +63,8 @@
 			children = (
 				B2AB231E2A3D9DE70038D6F1 /* baekjoon_10845.swift */,
 				B28D92962A3DB6540000BDD6 /* main.swift */,
+				B28D92992A3EC25A0000BDD6 /* PointerQueue.swift */,
+				B28D92A22A3EC5860000BDD6 /* DoubleStackQueue.swift */,
 			);
 			path = AlgorithmsStorage;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28D92972A3DB6540000BDD6 /* main.swift in Sources */,
+				B28D92A32A3EC5860000BDD6 /* DoubleStackQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
