@@ -44,3 +44,14 @@ import Foundation
 //for indexsss in 1...numberOfCommands {
 //
 //}
+var tempQueue: Queue<String> = Queue()
+tempQueue.enqueue("First")
+tempQueue.enqueue("Second")
+tempQueue.enqueue("Third")
+tempQueue.enqueue("Fourth")
+tempQueue.enqueue("Fifth")
+print("\(tempQueue.dequeue() ?? "")")
+print("\(tempQueue.dequeue() ?? "")")
+print("\(tempQueue.dequeue() ?? "")")
+print("\(tempQueue.dequeue() ?? "")")
+print("\(tempQueue.dequeue() ?? "")")

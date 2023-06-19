@@ -25,7 +25,7 @@ struct Queue<T: Equatable> {
         headPointer = 0
         /* Set this cycle as you would like to make cycle to update the inputArray */
         /* cycle have to be at least over 1 */
-        cycle = 10
+        cycle = 100
     }
     
     /// Adds an item to the inputArray
@@ -45,9 +45,8 @@ struct Queue<T: Equatable> {
         
         return inputArray[headPointer]
     }
-    
     /// Updates the inputArray to make only have exist elements in queue
-    mutating func updateArray() {
+    private mutating func updateArray() {
         guard !isEmpty else { return }
         
         guard headPointer >= cycle else { return }
